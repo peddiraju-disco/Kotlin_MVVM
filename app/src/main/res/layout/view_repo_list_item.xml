@@ -12,7 +12,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="@dimen/_20dp">
+        android:padding="20sp">
 
         <LinearLayout
             android:id="@+id/item_header_container"
@@ -22,8 +22,8 @@
 
             <ImageView
                 android:id="@+id/item_avatar"
-                android:layout_width="@dimen/avatar_size"
-                android:layout_height="@dimen/avatar_size"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:visibility="visible"
                 android:layout_gravity="center_vertical" />
 
@@ -32,11 +32,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:layout_marginStart="@dimen/_20dp"
+                android:layout_marginStart="20dp"
                 android:gravity="center_vertical"
                 android:text="@{itemData.full_name}"
                 android:textColor="@android:color/black"
-                android:textSize="@dimen/_20sp" />
+                android:textSize="20sp" />
         </LinearLayout>
     </RelativeLayout>
 </layout>

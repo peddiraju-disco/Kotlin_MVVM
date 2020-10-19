@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:text="No repo to display"
-            android:textSize="@dimen/_18sp"
+            android:textSize="18sp"
             android:visibility="@{safeUnbox(viewmodel.empty) ? View.VISIBLE : View.GONE}" />
     </RelativeLayout>
 </layout>
